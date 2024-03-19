@@ -1,0 +1,117 @@
+/* login */
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+.login input {
+margin-bottom: 10px;
+width: 300px;
+}
+.signup {
+    width: 300px;
+    margin: 100px auto;
+}
+.signup input {
+margin-bottom: 10px;
+width: 300px;
+}
+.center{
+    margin: 300px auto;
+    width: 50%;
+}
+/* dashboard */
+.home-stats .stat{
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.home-stats .stat span{
+display: block;
+}
+.home-stats .stat a{
+    color: rgb(19, 0, 124);
+    text-decoration: none;
+    }
+.red{
+    background-color: red;
+}
+.green{
+    background-color: rgba(0, 245, 37, 0.714);
+}
+.grey{
+    background-color: rgba(101, 101, 101, 0.574);
+}
+.blue{
+    background-color: rgba(154, 6, 68, 0.416);
+}
+.latest{
+    margin-top: 30px;
+}
+.block{
+    margin: 20px;
+}
+
+
+
+
+.reserve {
+    padding: 50px;
+    margin-top: 200px;
+    width: 300px;
+    margin: 100px auto;
+}
+
+
+
+
+
+.button {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 100px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .button label,
+  .button input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .button input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+  }
+  
+  .button input[type="radio"]:checked + label {
+    background: #20b8be;
+    border-radius: 4px;
+  }
+  
+  .button label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 1.8em;
+  }
+  
+
+  .stripe-button-el{
+    width: 65% !important;
+
+
+
+  }
+
+
+  button.stripe-button-el,
+  button.stripe-button-el>span {
+    background-color: #0019f9 !important;
+    background-image: none;
+
+    
+  }

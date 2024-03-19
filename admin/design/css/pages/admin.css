@@ -1,0 +1,121 @@
+.home{
+    font-family: 'Open Sans', sans-serif;
+    }
+    .bot{color:white;}
+    .top{color:rgba(172, 38, 38, 0.747);
+    }
+    body, html {
+      height: 100%;
+    }
+    #home{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    }
+    .bg{
+      
+background-color: rgb(0, 0, 0) !important;
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+    }
+    .bg::before{
+        content:"";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+
+
+body {
+  background-color: rgba(0, 0, 0,0.95);
+}
+ 
+
+i{
+  color: rgb(66, 39, 185) !important;
+}
+span{
+  color: rgb(255, 255, 255) !important;
+
+}
+
+.counter-section i { display:block; margin:0 0 10px}
+.counter-section span.counter { font-size:40px; color:#000; line-height:60px; display:block; font-family: "Oswald",sans-serif; letter-spacing: 2px}
+.counter-title{ font-size:12px; letter-spacing:2px; text-transform: uppercase}
+.counter-icon {top:25px; position:relative}
+.counter-style2 .counter-title {letter-spacing: 0.55px; float: left;}
+.counter-style2 span.counter {letter-spacing: 0.55px; float: left; margin-right: 10px;}
+.counter-style2 i {float: right; line-height: 26px; margin: 0 10px 0 0}
+.counter-subheadline span {float: right;}  
+
+.medium-icon {
+    font-size: 40px !important;
+    margin-bottom: 15px !important;
+} 
+
+.acitve{
+  background-color: rgba(66, 39, 185, 0.466) !important;
+  
+}
+
+.Buttonedit{
+  margin-left: 7px;
+}
+
+.action1{
+  padding-left: 40px !important;
+}
+
+.action2{
+  padding-left: 110px !important;
+}
+.error {
+  margin: 30% auto;
+}
+
+.middle {
+
+  margin: 300px auto;
+}
+
+.sidebar{
+  position: fixed !important;
+}
+.test{
+  margin-left: 300px !important;
+  width: calc(100%-300px) !important;
+}
+
+@media (max-width:570px){
+ .test{margin-left: 100px !important;}
+
+ } 
+  
+@media (max-width:1334px){
+   .Buttonedit{margin-top: 10px !important;}
+  } 
+   
+   
+  ::-webkit-scrollbar{width: 10px;
+    border-radius: 10px;
+  
+  }
+  ::-webkit-scrollbar-thumb{background-color: rgb(111, 12, 168); 
+     border-radius: 10px;
+  }
+  ::-webkit-scrollbar-track{
+  background-color:rgba(0,0,0,0.8);
+  
+  }

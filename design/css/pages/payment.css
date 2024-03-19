@@ -1,0 +1,112 @@
+.home{
+    font-family: 'Open Sans', sans-serif;
+    }
+    .bot{color:white;}
+    .top{color:rgba(172, 38, 38, 0.747);
+    }
+    body, html {
+      height: 100%;
+    }
+    #home{
+      height: 80vh;
+      width: 100%;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+    }
+    .bg{
+      background-color: black;
+      min-height: 100vh;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:cover;
+          background-attachment: fixed;
+          position: relative;
+    }
+    .bg::before{
+      content:"";
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.8);
+    }
+    .navbar{
+        height: 48px;
+    z-index: 2;}
+    a:link {
+      color: whitesmoke !important;
+    }
+    a:visited {
+      color: whitesmoke !important;
+    }
+    a:hover {
+      color: rgb(172, 28, 28) !important;
+    }
+    a:active {
+      color: skyblue !important;
+    }
+    .navbar{background-color:transparent !important ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
+    .navtitle{
+        padding: 10px !important ;
+    }
+.heartBeat{padding-left: 20px;}
+ #navbarNav{
+justify-content: right !important; }
+.navbtn{
+    background-color: rgb(168, 13, 13) !important;
+}
+
+
+.stripe-button-el{
+  width: 100% !important;
+
+
+
+}
+
+
+button.stripe-button-el,
+button.stripe-button-el>span {
+  background-color: #6943c2 !important;
+  background-image: none;
+  
+}
+
+.back{
+  text-decoration: none !important;
+}
+
+@media (max-width:990px){
+
+  .navbar{ background-color: transparent !important;}
+
+  #navbarSupportedContent{z-index: 100 !important;
+    background-color: rgba(0,0,0,0.4);
+    color: red ;
+  }
+  
+  }
+  
+  ::-webkit-scrollbar{width: 10px;
+  border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb{background-color: rgb(124, 19, 19); 
+   border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+background-color:rgba(0,0,0,0.8);
+
+}
+  
+  
+  

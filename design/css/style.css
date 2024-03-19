@@ -1,0 +1,272 @@
+/* login page css */
+
+.home{
+    font-family: 'Open Sans', sans-serif;
+    }
+    .bot{color:white;}
+    .top{color:rgba(172, 38, 38, 0.747);
+    }
+    body, html {
+      height: 100%;
+    }
+    #home{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    }
+    .backg{
+      background-image: url("../images/girl.jpg");
+      min-height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-attachment: fixed;
+      position: relative;
+  }
+.backg::before{
+  content:"";
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+
+}
+    .navbar{
+        height: 48px;
+    z-index: 2;}
+    a:link {
+      color: whitesmoke !important;
+    }
+    a:visited {
+      color: whitesmoke !important;
+    }
+    a:hover {
+      color: rgb(172, 28, 28) !important;
+    }
+    a:active {
+      color: skyblue !important;
+    }
+    .navbar{background-color: rgba(0,0,0,0.4) !important ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
+    .navtitle{
+        padding: 10px !important ;
+    }
+.heartBeat{padding-left: 20px;}
+ #navbarNav{
+justify-content: right !important; }
+.navbtn{
+    background-color: rgb(168, 13, 13) !important;
+}
+
+.container{
+    position: relative !important;
+}
+
+#form{
+    position: relative !important;
+
+}
+
+
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+/* Host register page */
+
+
+.home{
+  font-family: 'Open Sans', sans-serif;
+  }
+  .bot{color:white;}
+  .top{color:rgba(172, 38, 38, 0.747);
+  }
+
+  #home{
+      min-height: 80vh;
+      width: 100%;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  }
+  .backg{
+    background-image: url("../images/girl.jpg");
+      min-height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-attachment: fixed;
+      position: relative;
+  }
+.backg::before{
+  content:"";
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+
+}
+ 
+  .navbar{
+      height: 48px;
+  z-index: 2;}
+  a:link {
+    color: whitesmoke !important;
+  }
+  a:visited {
+    color: whitesmoke !important;
+  }
+  a:hover {
+    color: rgb(172, 28, 28) !important;
+  }
+  a:active {
+    color: skyblue !important;
+  }
+  .navbar{background-color: rgba(0,0,0,0.4) !important ;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  }
+  .navtitle{
+      padding: 10px !important ;
+  }
+.heartBeat{padding-left: 20px;}
+#navbarNav{
+justify-content: right !important; }
+.navbtn{
+  background-color: rgb(168, 13, 13) !important;
+}
+
+
+@media(max-width:768px){
+  #login-dp{
+      background-color: inherit;
+      color: #fff;
+  }
+  #login-dp .bottom{
+      background-color: inherit;
+      border-top:0 none;
+  }
+}
+
+
+
+
+
+/*User register page */
+
+
+
+.home{
+  font-family: 'Open Sans', sans-serif;
+  }
+  .bot{color:white;}
+  .top{color:rgba(172, 38, 38, 0.747);
+  }
+  body, html {
+    height: 100%;
+  }
+  #home{
+      height: 80vh;
+      width: 100%;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  }
+  .backg{
+    background-image: url("../images/girl.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.backg::before{
+content:"";
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.8);
+
+}
+  .navbar{
+      height: 48px;
+  z-index: 2;}
+  a:link {
+    color: whitesmoke !important;
+  }
+  a:visited {
+    color: whitesmoke !important;
+  }
+  a:hover {
+    color: rgb(172, 28, 28) !important;
+  }
+  a:active {
+    color: skyblue !important;
+  }
+  .navbar{background-color: rgba(0,0,0,0.4) !important ;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  }
+  .navtitle{
+      padding: 10px !important ;
+  }
+.heartBeat{padding-left: 20px;}
+#navbarNav{
+justify-content: right !important; }
+.navbtn{
+  background-color: rgb(168, 13, 13) !important;
+}
+
+.container{
+  position: relative !important;
+}
+
+#form{
+  position: relative !important;
+
+}
+
+
+@media(max-width:768px){
+  #login-dp{
+      background-color: inherit;
+      color: #fff;
+  }
+  #login-dp .bottom{
+      background-color: inherit;
+      border-top:0 none;
+
+  }
+}
+
+
